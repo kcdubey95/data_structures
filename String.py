@@ -4,26 +4,26 @@ print(s[2:])
 print(s[::-1])
 print(s[2:5:2])
 
-print value using for loop
+# print value using for loop
 for e1 in s:
     print(e1)
 
-get the value from index
+# get the value from index
 print(s[0])
 
-lower the  string
+# lower the  string
 print(s.lower())
 
-upper the sting
+# upper the sting
 print(s.upper())
 
-check the value is upper or lower reture true or false
+# check the value is upper or lower reture true or false
 
 print(s.islower())
 print(s.isupper())
 
 
-remove white space or extraspace from all side
+# remove white space or extraspace from all side
 
 str1 = '   Krishna     '
 print(str1.lstrip())
